@@ -27,6 +27,7 @@ int main(void) {
 
   // free it
   tree_free_full(t, free);
+  //test
 
   return EXIT_SUCCESS;
 }
