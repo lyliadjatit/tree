@@ -25,7 +25,7 @@ int main(void) {
   printf("save tree: %s\n", filename);
   tree_save_int(t, filename);
 
-  // free it
+  
   tree_free_full(t, free);
   //test
 
