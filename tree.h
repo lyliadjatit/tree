@@ -9,6 +9,7 @@
 
 typedef struct tree_s tree;
 
+int tree_sum_int(tree* t);  //delacrer la nouvelle fonction dans le fichier .h
 /* constructor */
 tree *tree_new(void *data);
 tree *tree_copy(tree *t);
