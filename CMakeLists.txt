@@ -9,7 +9,7 @@ set(CMAKE_C_FLAGS "-g -std=c99 -Wall --coverage")
 
 add_library(tree tree.c tree_aux.c)
 add_executable(sample sample.c)
-add_executable(sum sum.c)
+add_executable(sum sum.c tree_sum_int.c)
 target_link_libraries(sample tree)
 target_link_libraries(sum tree)
 
