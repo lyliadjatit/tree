@@ -4,7 +4,6 @@
 
 #include "tree.h"
 #include "tree_aux.h"
-
 int main(void) {
   srand(time(NULL));
 
