@@ -4,7 +4,6 @@
 
 #include "tree.h"
 #include "tree_aux.h"
-
 int main(void) {
   srand(time(NULL));
 
@@ -25,8 +24,9 @@ int main(void) {
   printf("save tree: %s\n", filename);
   tree_save_int(t, filename);
 
-  // free it
+  
   tree_free_full(t, free);
+  //test
 
   return EXIT_SUCCESS;
 }
